@@ -1,0 +1,47 @@
+.shop__container{
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.shop__wrapper{
+    position: relative;
+    cursor: pointer;
+    background-color: rgb(87, 208, 208);
+}
+
+.shop__wrapper:hover img{
+    opacity: 0.5;
+}
+
+.shop__wrapper:hover .overlay{
+    opacity: 1;
+}
+
+.shop__img1{
+    transition: .2s ease;
+}
+
+.overlay{
+    opacity: 0;
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    overflow: hidden;
+}
+
+.shop__button{
+    background: transparent;
+    padding: 15px 15px;
+    border: 3px solid white;
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+    cursor: pointer;
+}
+

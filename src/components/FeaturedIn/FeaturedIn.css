@@ -1,0 +1,12 @@
+.featureIn__container{
+    background-color: rgb(210, 234, 234);
+    padding: 50px 10px;
+    text-align: center;
+}
+
+.featureIn__companies{
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+

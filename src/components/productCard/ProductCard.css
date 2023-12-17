@@ -1,0 +1,20 @@
+.prod__container{
+    width: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.prod__imgContainer{
+    width: 300px;
+    justify-content: center;
+}
+
+.prod__img{
+    cursor: pointer;
+}
+
+.prod__p{
+    text-align: center;
+}
+

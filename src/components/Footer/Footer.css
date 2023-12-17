@@ -1,0 +1,37 @@
+.footer__container{
+    display: flex;
+    padding: 2% 4% 3% 3%;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+}
+
+.footer__wide{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.footer__wide2{
+    padding-left: 15%;
+}
+
+.footer__link{
+    cursor: pointer;
+}
+
+.footer__wide_one{
+    /* width: 50%; */
+}
+
+.footer__wide_two{
+    /* width: 50%; */
+}
+
+.footer__wide_three{
+    /* width: 50%; */
+}
+
+.footer__wide_four{
+    /* width: 50%; */
+}

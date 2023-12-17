@@ -1,0 +1,55 @@
+.nav__container{
+    display: flex;
+    justify-content: space-evenly;
+    height: 80px;
+    align-items: center;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.nav__one{
+    display: flex;
+    width: 10%;
+}
+
+.nav__middle{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+}
+.nav__last{
+    display: flex;
+    justify-content: space-evenly;
+    width: 20%;
+}
+.nav__item{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+
+.nav__itemIcon{
+    cursor: pointer;
+}
+.nav__item:hover{
+    color: rgb(134, 132, 132);
+}
+.nav__overlay{
+    display: none;
+    position: absolute;
+    padding: 20px 30px;
+    background-color: rgb(231, 226, 226);
+    width: 100%;
+}
+.nav__dropItem{
+    width: 100%;
+    text-decoration: none;
+    display: flex;
+    color: black;
+    padding-bottom: 20px;
+}
+.nav__dropItem:hover{
+    color: brown;
+    cursor: pointer;
+}
+

@@ -1,0 +1,53 @@
+.home__container{
+    width: 100%;
+}
+
+.home__contentContainer{
+    padding: 10px 30px;
+}
+
+.home__img{
+    width: 100%;
+}
+
+.text__photo {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+
+.text__p{
+    color: white;
+}
+
+.text__l{
+      color: white;
+      font-size: 70px;
+}
+
+.home__btn{
+    border: none;
+    background-color: white;
+    height: 50px;
+    width: 120px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.home__btn:hover{
+    color: white;
+    background-color: rgb(50, 47, 47);
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.home__foryou{
+    display: flex;
+}
+
+.home__prods{
+    display: flex;
+}
+
+
